@@ -1,7 +1,7 @@
 version: "3"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "adijaiswal/vb:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
