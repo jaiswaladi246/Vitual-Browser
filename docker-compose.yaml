@@ -13,3 +13,5 @@ services:
       NEKO_PASSWORD_ADMIN: admin
       NEKO_EPR: 52000-52100
       NEKO_ICELITE: 1
+    cap_add:
+      - SYS_ADMIN
